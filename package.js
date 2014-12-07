@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Login service for Ravelry accounts",
   name: "amschrader:accounts-ravelry",
-  git: "https://github.com/amschrader/accounts-ravelry.git",
+  git: "https://github.com/amschrader/meteor-accounts-ravelry.git",
   version: "0.1.0"
 });
 
