@@ -1,6 +1,8 @@
 Package.describe({
   summary: "Login service for Ravelry accounts",
-  name: "accounts-ravelry"
+  name: "amschrader:accounts-ravelry",
+  git: "https://github.com/amschrader/accounts-ravelry.git",
+  version: "0.1.0"
 });
 
 Package.on_use(function(api) {
@@ -8,7 +10,7 @@ Package.on_use(function(api) {
   api.use('accounts-base', ['client', 'server']);
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('ravelry', ['client', 'server']);
+  api.use('amschrader:ravelry', ['client', 'server']);
 
   api.use('http', ['client', 'server']);
 
